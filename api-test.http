@@ -1,0 +1,11 @@
+
+
+### Login API
+POST http://127.0.0.1:8000/api/login
+Content-Type: application/json
+Accept: application/json
+
+{
+    "email": "shuvo.api.test@example.com",
+    "password": "Secret12345"
+}
